@@ -108,11 +108,15 @@ Click Process Video to see results!
 VisionLane/
 ├── models/
 │   └── best.pt           # YOLOv8 trained model weights
+├── pages/
+    └── live_detection.py
 ├── assets/
 │   └── test_video.mp4    # Sample video for testing
 ├── app.py                # Main Streamlit app
-├── traditional_cv.py     # Classical CV lane detection logic
-├── yolo_detector.py      # YOLOv8 lane detection logic
+├── config.py
+├── hybrid_detector.py    # Classical CV lane detection logic
+├── lane_detector.py   
+├── yolo_lane_detector.py      # YOLOv8 lane detection logic
 └── requirements.txt      # Dependencies
 ```
 📝 Future Work
